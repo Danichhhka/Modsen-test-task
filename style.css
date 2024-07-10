@@ -211,3 +211,152 @@ main {
     padding-right: 15px;
   }
 }
+
+.greysmalltext,
+.greysmalltext2 {
+  font-size: var(--sub);
+  line-height: 1.6;
+}
+@media (max-width: 568px) {
+  .footer .image {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .group .image,
+  .group2 .image2 {
+    width: 70%;
+  }
+
+  .welcome-container,
+  .group,
+  .group2 {
+    flex-direction: column;
+  }
+
+  .welcome-picture,
+  .group .image,
+  .group2 .image2 {
+    order: -1;
+  }
+
+  .logos img {
+    display: block;
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer .image {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .group .image,
+  .group2 .image2 {
+    width: 50%;
+  }
+  .welcome-container,
+  .group,
+  .group2 {
+    flex-direction: column;
+  }
+
+  .welcome-picture,
+  .group .image,
+  .group2 .image2 {
+    order: -1;
+  }
+
+  .logos img {
+    display: block;
+    margin: 20px auto;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .group,
+  .group2 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .group .image,
+  .group2 .image2 {
+    order: -1;
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .group .text,
+  .group2 .text2 {
+    width: 100%;
+  }
+  .header1 {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+  .container,
+  .welcome-container,
+  .group,
+  .group2 {
+    padding: 20px;
+  }
+
+  header,
+  footer {
+    padding: 10px;
+  }
+
+  .welcome-picture,
+  .group .image,
+  .group2 .image2 {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .header1,
+  .header1-black,
+  .header1-black-shadow {
+    font-size: 32px;
+  }
+
+  .sub,
+  .greysmalltext,
+  .greysmalltext2 {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  .container,
+  .welcome-container,
+  .group,
+  .group2 {
+    padding: 40px;
+  }
+
+  header,
+  footer {
+    padding: 20px;
+  }
+
+  .welcome-picture,
+  .group .image,
+  .group2 .image2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+  }
+
+  .header1,
+  .header1-black,
+  .header1-black-shadow {
+    font-size: 36px;
+  }
+
+  .sub,
+  .greysmalltext,
+  .greysmalltext2 {
+    font-size: 16px;
+  }
+}
